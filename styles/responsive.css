@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px) {
+    /* Global */
+    html{
+        font-size: 12px;
+    }
+    /* NavBar */
+    .navBar-desktop{
+        display: none;
+    }
+    .navBar-mobile{
+        display: flex;
+    }
+
+    /* Banner style */
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}

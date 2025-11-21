@@ -2,14 +2,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .poppins-font {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Global Css */
+* {
+    margin: 0;
+    padding: 0;
+}
 
-.container{
+html {
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
+}
+
+.primary-color {
+    background-color: #E02C6D;
+}
+
+.secondary-color {
+    color: #3A3A3A;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* *********************************************** */
+
+/* Navbar style */
+.navBar-desktop {
+    padding-top: 50px;
+}
+
+.navBar-mobile {
+    padding-top: 30px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navLinks {
+    gap: 34px;
+}
+
+.navItems {
+    font-weight: 600;
+    font-size: 1rem;
+    list-style: none;
+}
+
+.navItems a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+.nav-img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Banner style */
+.banner {
+    margin: 100px 0;
+    gap: 8.125rem;
+}
+
+.banner-content {
+    max-width: 582px;
+}
+
+.banner-content h1 {
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 4.375rem;
+}
+
+.banner-content p {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 16px 0;
+}
+
+.banner-content button {
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.banner-image {
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
