@@ -1,19 +1,62 @@
 @media screen and (max-width: 576px) {
+
     /* Global */
-    html{
+    html {
         font-size: 12px;
     }
+
     /* NavBar */
-    .navBar-desktop{
+    .navBar-desktop {
         display: none;
     }
-    .navBar-mobile{
+
+    .navBar-mobile {
         display: flex;
     }
 
     /* Banner style */
-    .banner{
+    .banner {
         flex-direction: column-reverse;
         text-align: center;
+    }
+
+    /* Brand section style */
+    .brand-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        align-items: center;
+    }
+}
+
+/* ************************************************************* */
+
+/* Responsive design for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+
+    /* NavBar */
+    .navBar-desktop {
+        display: none;
+    }
+
+    .navBar-mobile {
+        display: flex;
+    }
+
+    /* Banner style */
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Brand section style */
+    .brand-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 80px;
+        align-items: center;
     }
 }
