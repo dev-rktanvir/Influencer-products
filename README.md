@@ -1,8 +1,8 @@
 <p align="center">
-  <strong> Live Link: https://dev-rktanvir-influencer-products.netlify.app/</strong>
+  <strong> Live Link: https://dev-rktanvir.github.io/Influencer-products/ </strong>
 </p>
 
-![Hero Section](https://github.com/dev-rktanvir/influencer-products/blob/main/screenshots/influencer-hero.png)
+![Hero Section](https://github.com/dev-rktanvir/Influencer-products/blob/main/screenshorts/influencer.png)
 
 # 📦 Influencer Products – Creator Gear Landing Page  
 A modern, fully responsive **landing page** designed for content creators and influencers, built using **HTML**, **CSS**, and **responsive design techniques**.  
@@ -82,13 +82,14 @@ The CSS is modular, making customization straightforward.
 ## 📸 Screenshots
 **Click on Image to see bigger version**
 
-| Hero | Brand Logos | Popular Products |
-| ---- | ----------- | --------------- |
-| <img src="https://github.com/dev-rktanvir/influencer-products/blob/main/screenshots/influencer-hero.png" width="250"/> | <img src="https://github.com/dev-rktanvir/influencer-products/blob/main/screenshots/influencer-brands.png" width="250"/> | <img src="https://github.com/dev-rktanvir/influencer-products/blob/main/screenshots/influencer-products.png" width="250"/> |
+| Hero Banner | Popular Collection | Featured Promotion |
+| ----------- | ---------------- | ----------------- |
+| <img src="https://github.com/dev-rktanvir/Influencer-products/blob/main/screenshorts/influencer-banner.png" width="250"/> | <img src="https://github.com/dev-rktanvir/Influencer-products/blob/main/screenshorts/influencer-collection.png" width="250"/> | <img src="https://github.com/dev-rktanvir/Influencer-products/blob/main/screenshorts/influencer-promotion.png" width="250"/> |
 
-| Featured Product | Footer |
-| ---------------- | ------ |
-| <img src="https://github.com/dev-rktanvir/influencer-products/blob/main/screenshots/influencer-featured.png" width="250"/> | <img src="https://github.com/dev-rktanvir/influencer-products/blob/main/screenshots/influencer-footer.png" width="250"/> |
+| Footer |
+| ------ |
+| <img src="https://github.com/dev-rktanvir/Influencer-products/blob/main/screenshorts/influencer-footer.png" width="250"/> |
+
 
 ---
 
